@@ -178,14 +178,17 @@ footer{
     margin-top:30px;
 }
 
-.paso{
-    background:white;
-    padding:25px;
-    width:260px;
-    border-radius:20px;
-    box-shadow:0 6px 20px rgba(0,0,0,.1);
+.paso:nth-child(1){
+    border-left:6px solid #ff6b6b; /* rojo */
 }
 
+.paso:nth-child(2){
+    border-left:6px solid #4dabf7; /* azul */
+}
+
+.paso:nth-child(3){
+    border-left:6px solid #51cf66; /* verde */
+}
 .stat-box{
     text-align:center;
 }
