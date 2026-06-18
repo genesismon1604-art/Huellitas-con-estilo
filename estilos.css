@@ -256,3 +256,30 @@ border-left:5px solid #ff6b6b;
 border-radius:10px;
 font-size:14px;
 }
+.tabla-precios{
+    width:100%;
+    margin-top:40px;
+    border-collapse:collapse;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 6px 20px rgba(0,0,0,0.1);
+}
+
+.tabla-precios th{
+    background:linear-gradient(90deg,#ff9a9e,#fad0c4,#fbc2eb);
+    color:#333;
+    padding:15px;
+    font-size:18px;
+}
+
+.tabla-precios td{
+    padding:12px;
+    text-align:center;
+    border-bottom:1px solid #eee;
+}
+
+.tabla-precios tr:hover{
+    background:#fff5f7;
+    transition:0.3s;
+}
