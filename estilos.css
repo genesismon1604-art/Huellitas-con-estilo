@@ -10,7 +10,6 @@ body{
     color:#333;
 }
 
-/* HEADER */
 header{
     background:linear-gradient(135deg,#6a11cb,#2575fc,#00c6ff);
     color:white;
@@ -30,7 +29,6 @@ header p{
     font-size:1.2rem;
 }
 
-/* NAV */
 nav{
     background:linear-gradient(90deg,#6a11cb,#2575fc);
     padding:15px;
@@ -50,7 +48,6 @@ nav a:hover{
     transform:scale(1.1);
 }
 
-/* SECCIONES */
 section{
     padding:60px 8%;
 }
@@ -62,14 +59,12 @@ h2{
     animation: fadeUp 1s ease;
 }
 
-/* GRID */
 .grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
     gap:20px;
 }
 
-/* CARDS */
 .card{
     background:white;
     padding:25px;
@@ -96,7 +91,6 @@ h2{
     transform:scale(1.05);
 }
 
-/* INPUTS */
 input{
     width:100%;
     padding:10px;
@@ -105,13 +99,11 @@ input{
     border-radius:8px;
 }
 
-/* HERO */
 .hero img{
     width:100%;
     display:block;
 }
 
-/* BENEFICIOS */
 .hero-beneficios{
     display:flex;
     align-items:center;
@@ -147,7 +139,6 @@ input{
     color:#555;
 }
 
-/* PASOS */
 .pasos{
     display:flex;
     justify-content:center;
@@ -171,7 +162,6 @@ input{
     transform:translateY(-8px) scale(1.03);
 }
 
-/* BOTÓN */
 .btn-registrar{
     background:#2575fc;
     color:white;
@@ -195,7 +185,6 @@ input{
     margin-top:25px;
 }
 
-/* TABLA */
 .tabla-precios{
     width:100%;
     margin-top:40px;
@@ -218,7 +207,6 @@ input{
     border-bottom:1px solid #eee;
 }
 
-/* FOOTER */
 footer{
     background:linear-gradient(90deg,#6a11cb,#2575fc,#00c6ff);
     color:white;
@@ -227,7 +215,6 @@ footer{
     margin-top:40px;
 }
 
-/* ANIMACIONES */
 @keyframes fadeUp{
     from{
         opacity:0;
@@ -253,6 +240,9 @@ footer{
     list-style:none;
     padding:0;
     margin-top:15px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
 
 .beneficios li{
@@ -262,12 +252,11 @@ footer{
     cursor:pointer;
 }
 
-/* EFECTO ZOOM 🔥 */
 .beneficios li:hover{
     transform: scale(1.1);
     color:#2575fc;
 }
 .beneficios li:hover{
-    transform: scale(1.1) translateX(10px);
+    transform: scale(1.1) translateX(5px);
     color:#2575fc;
 }
